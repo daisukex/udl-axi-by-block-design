@@ -1,0 +1,5 @@
+#+TITLE: Space Cubics OBC (SC-OBC A1) udl_axi for vivado block design
+#+PROPERTY: header-args:emacs-lisp :results silent
+
+This environment generates udl_axi using Vivado Block Design.
+It was generated using Vivado 2022.2.
