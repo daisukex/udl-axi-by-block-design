@@ -1,0 +1,266 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.717936",
+   "Default View_TopLeft":"850,832",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_MAXI_CLK -pg 1 -lvl 0 -x -110 -y 1490 -defaultsOSRD
+preplace port port-id_REF_CLK -pg 1 -lvl 0 -x -110 -y 60 -defaultsOSRD
+preplace port port-id_USER_CLK2 -pg 1 -lvl 0 -x -110 -y 180 -defaultsOSRD
+preplace port port-id_SYS_RSTB_SYNC_REFCLK -pg 1 -lvl 0 -x -110 -y 100 -defaultsOSRD
+preplace port port-id_SYS_RSTB_SYNC_USERCLK1 -pg 1 -lvl 0 -x -110 -y 120 -defaultsOSRD
+preplace port port-id_SYS_RSTB_SYNC_USERCLK2 -pg 1 -lvl 0 -x -110 -y 140 -defaultsOSRD
+preplace port port-id_SYS_RSTB -pg 1 -lvl 0 -x -110 -y 80 -defaultsOSRD
+preplace port port-id_POR_RSTB -pg 1 -lvl 0 -x -110 -y 20 -defaultsOSRD
+preplace port port-id_POR_RSTB_SYNC_REFCLK -pg 1 -lvl 0 -x -110 -y 40 -defaultsOSRD
+preplace port port-id_BUS_RSTB -pg 1 -lvl 0 -x -110 -y 1510 -defaultsOSRD
+preplace port port-id_UDL_AXIM_AWLOCK -pg 1 -lvl 5 -x 1810 -y 1530 -defaultsOSRD
+preplace port port-id_UDL_AXIM_AWVALID -pg 1 -lvl 5 -x 1810 -y 1800 -defaultsOSRD
+preplace port port-id_UDL_AXIM_AWREADY -pg 1 -lvl 5 -x 1810 -y 1760 -defaultsOSRD -right
+preplace port port-id_UDL_AXIM_WLAST -pg 1 -lvl 5 -x 1810 -y 1990 -defaultsOSRD
+preplace port port-id_UDL_AXIM_WVALID -pg 1 -lvl 5 -x 1810 -y 2050 -defaultsOSRD
+preplace port port-id_UDL_AXIM_WREADY -pg 1 -lvl 5 -x 1810 -y 2090 -defaultsOSRD -right
+preplace port port-id_UDL_AXIM_BVALID -pg 1 -lvl 5 -x 1810 -y 2150 -defaultsOSRD -right
+preplace port port-id_UDL_AXIM_BREADY -pg 1 -lvl 5 -x 1810 -y 2190 -defaultsOSRD
+preplace port port-id_UDL_AXIM_ARLOCK -pg 1 -lvl 5 -x 1810 -y 2590 -defaultsOSRD
+preplace port port-id_UDL_AXIM_ARVALID -pg 1 -lvl 5 -x 1810 -y 2860 -defaultsOSRD
+preplace port port-id_UDL_AXIM_ARREADY -pg 1 -lvl 5 -x 1810 -y 2930 -defaultsOSRD -right
+preplace port port-id_UDL_AXIM_RLAST -pg 1 -lvl 5 -x 1810 -y 3020 -defaultsOSRD -right
+preplace port port-id_UDL_AXIM_RVALID -pg 1 -lvl 5 -x 1810 -y 3060 -defaultsOSRD -right
+preplace port port-id_UDL_AXIM_RREADY -pg 1 -lvl 5 -x 1810 -y 3100 -defaultsOSRD
+preplace port port-id_UDL_AXIS_AWVALID -pg 1 -lvl 0 -x -110 -y 930 -defaultsOSRD
+preplace port port-id_UDL_AXIS_AWREADY -pg 1 -lvl 0 -x -110 -y 950 -defaultsOSRD -left
+preplace port port-id_UDL_AXIS_WLAST -pg 1 -lvl 0 -x -110 -y 1010 -defaultsOSRD
+preplace port port-id_UDL_AXIS_WVALID -pg 1 -lvl 0 -x -110 -y 1030 -defaultsOSRD
+preplace port port-id_UDL_AXIS_WREADY -pg 1 -lvl 0 -x -110 -y 1050 -defaultsOSRD -left
+preplace port port-id_UDL_AXIS_BVALID -pg 1 -lvl 0 -x -110 -y 1110 -defaultsOSRD -left
+preplace port port-id_UDL_AXIS_BREADY -pg 1 -lvl 0 -x -110 -y 1130 -defaultsOSRD
+preplace port port-id_UDL_AXIS_ARLOCK -pg 1 -lvl 0 -x -110 -y 1250 -defaultsOSRD
+preplace port port-id_UDL_AXIS_ARVALID -pg 1 -lvl 0 -x -110 -y 1330 -defaultsOSRD
+preplace port port-id_UDL_AXIS_ARREADY -pg 1 -lvl 0 -x -110 -y 1350 -defaultsOSRD -left
+preplace port port-id_UDL_AXIS_RLAST -pg 1 -lvl 0 -x -110 -y 1430 -defaultsOSRD -left
+preplace port port-id_UDL_AXIS_RVALID -pg 1 -lvl 0 -x -110 -y 1450 -defaultsOSRD -left
+preplace port port-id_UDL_AXIS_RREADY -pg 1 -lvl 0 -x -110 -y 1470 -defaultsOSRD
+preplace port port-id_TRCH_UART_TX -pg 1 -lvl 5 -x 1810 -y 3670 -defaultsOSRD
+preplace port port-id_TRCH_UART_RX -pg 1 -lvl 5 -x 1810 -y 3440 -defaultsOSRD
+preplace port port-id_WDOG_OUT -pg 1 -lvl 5 -x 1810 -y 3880 -defaultsOSRD
+preplace port port-id_USER_CLK1 -pg 1 -lvl 0 -x -110 -y 160 -defaultsOSRD
+preplace port port-id_UDL_AXIS_AWLOCK -pg 1 -lvl 0 -x -110 -y 850 -defaultsOSRD
+preplace portBus UDL_INTISR -pg 1 -lvl 5 -x 1810 -y 1070 -defaultsOSRD
+preplace portBus UDL_AXIM_AWID -pg 1 -lvl 5 -x 1810 -y 1220 -defaultsOSRD
+preplace portBus UIO1 -pg 1 -lvl 5 -x 1810 -y 3340 -defaultsOSRD
+preplace portBus UDL_AXIM_AWADDR -pg 1 -lvl 5 -x 1810 -y 1280 -defaultsOSRD
+preplace portBus UDL_AXIM_AWLEN -pg 1 -lvl 5 -x 1810 -y 1340 -defaultsOSRD
+preplace portBus UDL_AXIM_AWSIZE -pg 1 -lvl 5 -x 1810 -y 1410 -defaultsOSRD
+preplace portBus UDL_AXIM_AWBURST -pg 1 -lvl 5 -x 1810 -y 1470 -defaultsOSRD
+preplace portBus UDL_AXIM_AWCACHE -pg 1 -lvl 5 -x 1810 -y 1600 -defaultsOSRD
+preplace portBus UDL_AXIM_AWPROT -pg 1 -lvl 5 -x 1810 -y 1660 -defaultsOSRD
+preplace portBus UDL_AXIM_AWQOS -pg 1 -lvl 5 -x 1810 -y 1720 -defaultsOSRD
+preplace portBus UDL_AXIM_WDATA -pg 1 -lvl 5 -x 1810 -y 1860 -defaultsOSRD
+preplace portBus UDL_AXIM_WSTRB -pg 1 -lvl 5 -x 1810 -y 1930 -defaultsOSRD
+preplace portBus UDL_AXIM_BID -pg 1 -lvl 5 -x 1810 -y 2110 -defaultsOSRD -right
+preplace portBus UDL_AXIM_BRESP -pg 1 -lvl 5 -x 1810 -y 2130 -defaultsOSRD -right
+preplace portBus UDL_AXIM_ARID -pg 1 -lvl 5 -x 1810 -y 2260 -defaultsOSRD
+preplace portBus UDL_AXIM_ARADDR -pg 1 -lvl 5 -x 1810 -y 2320 -defaultsOSRD
+preplace portBus UDL_AXIM_ARLEN -pg 1 -lvl 5 -x 1810 -y 2390 -defaultsOSRD
+preplace portBus UDL_AXIM_ARSIZE -pg 1 -lvl 5 -x 1810 -y 2460 -defaultsOSRD
+preplace portBus UDL_AXIM_ARBURST -pg 1 -lvl 5 -x 1810 -y 2530 -defaultsOSRD
+preplace portBus UDL_AXIM_ARCACHE -pg 1 -lvl 5 -x 1810 -y 2660 -defaultsOSRD
+preplace portBus UDL_AXIM_ARPROT -pg 1 -lvl 5 -x 1810 -y 2790 -defaultsOSRD
+preplace portBus UDL_AXIM_ARQOS -pg 1 -lvl 5 -x 1810 -y 2720 -defaultsOSRD
+preplace portBus UDL_AXIM_RID -pg 1 -lvl 5 -x 1810 -y 2900 -defaultsOSRD -right
+preplace portBus UDL_AXIM_RDATA -pg 1 -lvl 5 -x 1810 -y 2960 -defaultsOSRD -right
+preplace portBus UDL_AXIS_AWID -pg 1 -lvl 0 -x -110 -y 750 -defaultsOSRD
+preplace portBus UDL_AXIS_AWADDR -pg 1 -lvl 0 -x -110 -y 770 -defaultsOSRD
+preplace portBus UDL_AXIS_AWLEN -pg 1 -lvl 0 -x -110 -y 790 -defaultsOSRD
+preplace portBus UDL_AXIS_AWSIZE -pg 1 -lvl 0 -x -110 -y 810 -defaultsOSRD
+preplace portBus UDL_AXIS_AWBURST -pg 1 -lvl 0 -x -110 -y 830 -defaultsOSRD
+preplace portBus UDL_AXIS_AWCACHE -pg 1 -lvl 0 -x -110 -y 870 -defaultsOSRD
+preplace portBus UDL_AXIS_AWPROT -pg 1 -lvl 0 -x -110 -y 890 -defaultsOSRD
+preplace portBus UDL_AXIS_AWREGION -pg 1 -lvl 0 -x -110 -y 520 -defaultsOSRD
+preplace portBus UDL_AXIS_AWQOS -pg 1 -lvl 0 -x -110 -y 910 -defaultsOSRD
+preplace portBus UDL_AXIS_WDATA -pg 1 -lvl 0 -x -110 -y 970 -defaultsOSRD
+preplace portBus UDL_AXIS_WSTRB -pg 1 -lvl 0 -x -110 -y 990 -defaultsOSRD
+preplace portBus UDL_AXIS_BID -pg 1 -lvl 0 -x -110 -y 1070 -defaultsOSRD -left
+preplace portBus UDL_AXIS_BRESP -pg 1 -lvl 0 -x -110 -y 1090 -defaultsOSRD -left
+preplace portBus UDL_AXIS_ARID -pg 1 -lvl 0 -x -110 -y 1150 -defaultsOSRD
+preplace portBus UDL_AXIS_ARADDR -pg 1 -lvl 0 -x -110 -y 1170 -defaultsOSRD
+preplace portBus UDL_AXIS_ARLEN -pg 1 -lvl 0 -x -110 -y 1190 -defaultsOSRD
+preplace portBus UDL_AXIS_ARSIZE -pg 1 -lvl 0 -x -110 -y 1210 -defaultsOSRD
+preplace portBus UDL_AXIS_ARBURST -pg 1 -lvl 0 -x -110 -y 1230 -defaultsOSRD
+preplace portBus UDL_AXIS_ARCACHE -pg 1 -lvl 0 -x -110 -y 1270 -defaultsOSRD
+preplace portBus UDL_AXIS_ARPROT -pg 1 -lvl 0 -x -110 -y 1290 -defaultsOSRD
+preplace portBus UDL_AXIS_ARREGION -pg 1 -lvl 0 -x -110 -y 500 -defaultsOSRD
+preplace portBus UDL_AXIS_ARQOS -pg 1 -lvl 0 -x -110 -y 1310 -defaultsOSRD
+preplace portBus UDL_AXIS_RID -pg 1 -lvl 0 -x -110 -y 1370 -defaultsOSRD -left
+preplace portBus UDL_AXIS_RDATA -pg 1 -lvl 0 -x -110 -y 1390 -defaultsOSRD -left
+preplace portBus UDL_AXIS_RRESP -pg 1 -lvl 0 -x -110 -y 1410 -defaultsOSRD -left
+preplace portBus UIO2 -pg 1 -lvl 5 -x 1810 -y 3580 -defaultsOSRD
+preplace portBus UIO3 -pg 1 -lvl 5 -x 1810 -y 3840 -defaultsOSRD
+preplace portBus UDL_AXIM_RRESP -pg 1 -lvl 5 -x 1810 -y 2990 -defaultsOSRD -right
+preplace inst ud_axi_crossbar -pg 1 -lvl 1 -x 100 -y 1120 -defaultsOSRD
+preplace inst c_uio1_oen -pg 1 -lvl 2 -x 630 -y 3340 -defaultsOSRD
+preplace inst c_uio1_data -pg 1 -lvl 2 -x 630 -y 3240 -defaultsOSRD
+preplace inst c_uio2_oen -pg 1 -lvl 2 -x 630 -y 3610 -defaultsOSRD
+preplace inst c_uio2_data -pg 1 -lvl 2 -x 630 -y 3440 -defaultsOSRD
+preplace inst c_uio3_oen -pg 1 -lvl 2 -x 630 -y 3810 -defaultsOSRD
+preplace inst c_uio3_data -pg 1 -lvl 2 -x 630 -y 3710 -defaultsOSRD
+preplace inst c_uarttx_oen -pg 1 -lvl 2 -x 630 -y 4410 -defaultsOSRD
+preplace inst c_uarttx_data -pg 1 -lvl 2 -x 630 -y 4210 -defaultsOSRD
+preplace inst c_uartrx_oen -pg 1 -lvl 2 -x 630 -y 4110 -defaultsOSRD
+preplace inst c_uartrx_data -pg 1 -lvl 2 -x 630 -y 4010 -defaultsOSRD
+preplace inst c_wdogout_oen -pg 1 -lvl 2 -x 630 -y 4710 -defaultsOSRD
+preplace inst c_wdogout_data -pg 1 -lvl 2 -x 630 -y 4580 -defaultsOSRD
+preplace inst axi_slave_m01 -pg 1 -lvl 2 -x 630 -y 440 -defaultsOSRD
+preplace inst axi_slave_m02 -pg 1 -lvl 2 -x 630 -y 680 -defaultsOSRD
+preplace inst axi_slave_m03 -pg 1 -lvl 2 -x 630 -y 900 -defaultsOSRD
+preplace inst c_intisr -pg 1 -lvl 3 -x 1010 -y 1070 -defaultsOSRD
+preplace inst axi_slave_m00 -pg 1 -lvl 2 -x 630 -y 150 -defaultsOSRD
+preplace inst axi_slave_term_m00 -pg 1 -lvl 1 -x 100 -y 250 -defaultsOSRD
+preplace inst axi_slave_term_m01 -pg 1 -lvl 1 -x 100 -y 410 -defaultsOSRD
+preplace inst axi_slave_term_m02 -pg 1 -lvl 1 -x 100 -y 90 -defaultsOSRD
+preplace inst axi_slave_term_m03 -pg 1 -lvl 1 -x 100 -y 600 -defaultsOSRD
+preplace inst bd_buf_uartrx -pg 1 -lvl 3 -x 1010 -y 4120 -defaultsOSRD
+preplace inst bd_buf_uarttx -pg 1 -lvl 3 -x 1010 -y 4360 -defaultsOSRD
+preplace inst bd_buf_wdogout -pg 1 -lvl 3 -x 1010 -y 4620 -defaultsOSRD
+preplace inst udl_axi_bd_buf_uio1 -pg 1 -lvl 3 -x 1010 -y 3330 -defaultsOSRD
+preplace inst udl_axi_bd_buf_uio2 -pg 1 -lvl 3 -x 1010 -y 3570 -defaultsOSRD
+preplace inst udl_axi_bd_buf_uio3 -pg 1 -lvl 3 -x 1010 -y 3830 -defaultsOSRD
+preplace inst c_axim_awid -pg 1 -lvl 3 -x 1010 -y 1220 -defaultsOSRD
+preplace inst c_axim_awaddr -pg 1 -lvl 4 -x 1290 -y 1280 -defaultsOSRD
+preplace inst c_axim_awlen -pg 1 -lvl 3 -x 1010 -y 1340 -defaultsOSRD
+preplace inst c_axim_awsize -pg 1 -lvl 4 -x 1290 -y 1410 -defaultsOSRD
+preplace inst c_axim_awburst -pg 1 -lvl 3 -x 1010 -y 1470 -defaultsOSRD
+preplace inst c_axim_awlock -pg 1 -lvl 4 -x 1290 -y 1530 -defaultsOSRD
+preplace inst c_axim_awcache -pg 1 -lvl 3 -x 1010 -y 1600 -defaultsOSRD
+preplace inst c_axim_awprot -pg 1 -lvl 4 -x 1290 -y 1660 -defaultsOSRD
+preplace inst c_axim_awqos -pg 1 -lvl 3 -x 1010 -y 1720 -defaultsOSRD
+preplace inst c_axim_awvalid -pg 1 -lvl 4 -x 1290 -y 1800 -defaultsOSRD
+preplace inst c_axim_wdata -pg 1 -lvl 3 -x 1010 -y 1860 -defaultsOSRD
+preplace inst c_axim_wstrb -pg 1 -lvl 4 -x 1290 -y 1930 -defaultsOSRD
+preplace inst c_axim_wlast -pg 1 -lvl 3 -x 1010 -y 1990 -defaultsOSRD
+preplace inst c_axim_wlvalid -pg 1 -lvl 4 -x 1290 -y 2050 -defaultsOSRD
+preplace inst c_axim_bready -pg 1 -lvl 3 -x 1010 -y 2190 -defaultsOSRD
+preplace inst c_axim_arid -pg 1 -lvl 4 -x 1290 -y 2260 -defaultsOSRD
+preplace inst c_axim_araddr -pg 1 -lvl 3 -x 1010 -y 2320 -defaultsOSRD
+preplace inst c_axim_arlen -pg 1 -lvl 4 -x 1290 -y 2390 -defaultsOSRD
+preplace inst c_axim_arsize -pg 1 -lvl 3 -x 1010 -y 2460 -defaultsOSRD
+preplace inst c_axim_arburst -pg 1 -lvl 4 -x 1290 -y 2530 -defaultsOSRD
+preplace inst c_axim_arlock -pg 1 -lvl 3 -x 1010 -y 2590 -defaultsOSRD
+preplace inst c_axim_arcache -pg 1 -lvl 4 -x 1290 -y 2660 -defaultsOSRD
+preplace inst c_axim_arqos -pg 1 -lvl 3 -x 1010 -y 2720 -defaultsOSRD
+preplace inst c_axim_arprot -pg 1 -lvl 4 -x 1290 -y 2790 -defaultsOSRD
+preplace inst c_axim_arvalid -pg 1 -lvl 3 -x 1010 -y 2860 -defaultsOSRD
+preplace inst c_axim_rready -pg 1 -lvl 4 -x 1290 -y 3100 -defaultsOSRD
+preplace netloc BUS_RSTB_1 1 0 2 -90 500 350
+preplace netloc MAXI_CLK_1 1 0 2 -80 510 430
+preplace netloc Net 1 3 2 N 3340 N
+preplace netloc Net1 1 3 2 N 3580 N
+preplace netloc Net2 1 3 2 N 3840 N
+preplace netloc Net3 1 3 2 1150 3670 N
+preplace netloc Net4 1 3 2 1140 3440 N
+preplace netloc Net5 1 3 2 1160 3880 N
+preplace netloc UDL_AXIS_ARADDR_1 1 0 1 NJ 1170
+preplace netloc UDL_AXIS_ARBURST_1 1 0 1 NJ 1230
+preplace netloc UDL_AXIS_ARCACHE_1 1 0 1 NJ 1270
+preplace netloc UDL_AXIS_ARID_1 1 0 1 NJ 1150
+preplace netloc UDL_AXIS_ARLEN_1 1 0 1 NJ 1190
+preplace netloc UDL_AXIS_ARLOCK_1 1 0 1 NJ 1250
+preplace netloc UDL_AXIS_ARPROT_1 1 0 1 NJ 1290
+preplace netloc UDL_AXIS_ARQOS_1 1 0 1 NJ 1310
+preplace netloc UDL_AXIS_ARSIZE_1 1 0 1 NJ 1210
+preplace netloc UDL_AXIS_ARVALID_1 1 0 1 NJ 1330
+preplace netloc UDL_AXIS_AWADDR_1 1 0 1 NJ 770
+preplace netloc UDL_AXIS_AWBURST_1 1 0 1 NJ 830
+preplace netloc UDL_AXIS_AWCACHE_1 1 0 1 NJ 870
+preplace netloc UDL_AXIS_AWID_1 1 0 1 NJ 750
+preplace netloc UDL_AXIS_AWLEN_1 1 0 1 NJ 790
+preplace netloc UDL_AXIS_AWLOCK_1 1 0 1 NJ 850
+preplace netloc UDL_AXIS_AWPROT_1 1 0 1 NJ 890
+preplace netloc UDL_AXIS_AWQOS_1 1 0 1 NJ 910
+preplace netloc UDL_AXIS_AWSIZE_1 1 0 1 NJ 810
+preplace netloc UDL_AXIS_AWVALID_1 1 0 1 NJ 930
+preplace netloc UDL_AXIS_BREADY_1 1 0 1 NJ 1130
+preplace netloc UDL_AXIS_RREADY_1 1 0 1 NJ 1470
+preplace netloc UDL_AXIS_WDATA_1 1 0 1 NJ 970
+preplace netloc UDL_AXIS_WLAST_1 1 0 1 NJ 1010
+preplace netloc UDL_AXIS_WSTRB_1 1 0 1 NJ 990
+preplace netloc UDL_AXIS_WVALID_1 1 0 1 NJ 1030
+preplace netloc axi_crossbar_s_axi_arready 1 0 1 NJ 1350
+preplace netloc axi_crossbar_s_axi_awready 1 0 1 NJ 950
+preplace netloc axi_crossbar_s_axi_bid 1 0 1 NJ 1070
+preplace netloc axi_crossbar_s_axi_bresp 1 0 1 NJ 1090
+preplace netloc axi_crossbar_s_axi_bvalid 1 0 1 NJ 1110
+preplace netloc axi_crossbar_s_axi_rdata 1 0 1 NJ 1390
+preplace netloc axi_crossbar_s_axi_rid 1 0 1 NJ 1370
+preplace netloc axi_crossbar_s_axi_rlast 1 0 1 NJ 1430
+preplace netloc axi_crossbar_s_axi_rresp 1 0 1 NJ 1410
+preplace netloc axi_crossbar_s_axi_rvalid 1 0 1 NJ 1450
+preplace netloc axi_crossbar_s_axi_wready 1 0 1 NJ 1050
+preplace netloc axi_slave_term_m00_REG_RACCERR 1 1 1 340 190n
+preplace netloc axi_slave_term_m00_REG_RDATA 1 1 1 290 150n
+preplace netloc axi_slave_term_m00_REG_RWAIT 1 1 1 360 210n
+preplace netloc axi_slave_term_m00_REG_WACCERR 1 1 1 330 170n
+preplace netloc axi_slave_term_m01_REG_RACCERR 1 1 1 330 420n
+preplace netloc axi_slave_term_m01_REG_RDATA 1 1 1 380 380n
+preplace netloc axi_slave_term_m01_REG_RWAIT 1 1 1 360 440n
+preplace netloc axi_slave_term_m01_REG_WACCERR 1 1 1 410 400n
+preplace netloc axi_slave_term_m02_REG_RACCERR 1 1 1 390 100n
+preplace netloc axi_slave_term_m02_REG_RDATA 1 1 1 450 60n
+preplace netloc axi_slave_term_m02_REG_RWAIT 1 1 1 370 120n
+preplace netloc axi_slave_term_m02_REG_WACCERR 1 1 1 420 80n
+preplace netloc axi_slave_term_m03_REG_RACCERR 1 1 1 290 610n
+preplace netloc axi_slave_term_m03_REG_RDATA 1 1 1 310 570n
+preplace netloc axi_slave_term_m03_REG_RWAIT 1 1 1 280 630n
+preplace netloc axi_slave_term_m03_REG_WACCERR 1 1 1 300 590n
+preplace netloc c_axim_araddr_dout 1 3 2 NJ 2320 N
+preplace netloc c_axim_arburst_dout 1 4 1 N 2530
+preplace netloc c_axim_arcache_dout 1 4 1 N 2660
+preplace netloc c_axim_arid_dout 1 4 1 N 2260
+preplace netloc c_axim_arlen_dout 1 4 1 N 2390
+preplace netloc c_axim_arlock_dout 1 3 2 NJ 2590 N
+preplace netloc c_axim_arprot_dout 1 4 1 N 2790
+preplace netloc c_axim_arqos_dout 1 3 2 NJ 2720 N
+preplace netloc c_axim_arsize_dout 1 3 2 NJ 2460 N
+preplace netloc c_axim_arvalid_dout 1 3 2 NJ 2860 N
+preplace netloc c_axim_awaddr_dout 1 4 1 N 1280
+preplace netloc c_axim_awburst_dout 1 3 2 NJ 1470 N
+preplace netloc c_axim_awcache_dout 1 3 2 NJ 1600 N
+preplace netloc c_axim_awid_dout 1 3 2 NJ 1220 N
+preplace netloc c_axim_awlen_dout 1 3 2 NJ 1340 N
+preplace netloc c_axim_awlock_dout 1 4 1 N 1530
+preplace netloc c_axim_awprot_dout 1 4 1 N 1660
+preplace netloc c_axim_awqos_dout 1 3 2 NJ 1720 N
+preplace netloc c_axim_awsize_dout 1 4 1 N 1410
+preplace netloc c_axim_awvalid_dout 1 4 1 N 1800
+preplace netloc c_axim_bready_dout 1 3 2 NJ 2190 NJ
+preplace netloc c_axim_rready_dout 1 4 1 N 3100
+preplace netloc c_axim_wdata_dout 1 3 2 N 1860 N
+preplace netloc c_axim_wlast_dout 1 3 2 N 1990 N
+preplace netloc c_axim_wlvalid_dout 1 4 1 N 2050
+preplace netloc c_axim_wstrb_dout 1 4 1 N 1930
+preplace netloc c_intisr_dout 1 3 2 N 1070 N
+preplace netloc c_uartrx_data_dout 1 2 1 820 4010n
+preplace netloc c_uartrx_oen_dout 1 2 1 810 4110n
+preplace netloc c_uarttx_data_dout 1 2 1 820 4210n
+preplace netloc c_uarttx_oen_dout 1 2 1 810 4370n
+preplace netloc c_uio1_data_dout 1 2 1 820 3240n
+preplace netloc c_uio1_oen_dout 1 2 1 N 3340
+preplace netloc c_uio2_data_dout 1 2 1 820 3440n
+preplace netloc c_uio2_oen_dout 1 2 1 820 3580n
+preplace netloc c_uio3_data_dout 1 2 1 820 3710n
+preplace netloc c_uio3_oen_dout 1 2 1 810 3810n
+preplace netloc c_wdogout_data_dout 1 2 1 820 4580n
+preplace netloc c_wdogout_oen_dout 1 2 1 810 4630n
+preplace netloc ud_axi_crossbar_M00_AXI 1 1 1 320 90n
+preplace netloc ud_axi_crossbar_M01_AXI 1 1 1 400 380n
+preplace netloc ud_axi_crossbar_M02_AXI 1 1 1 440 620n
+preplace netloc ud_axi_crossbar_M03_AXI 1 1 1 450 840n
+levelinfo -pg 1 -110 100 630 1010 1290 1810
+pagesize -pg 1 -db -bbox -sgen -360 0 2050 4770
+"
+}
+{
+   "da_axi4_cnt":"1"
+}
