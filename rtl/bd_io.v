@@ -9,7 +9,7 @@ module bd_buf # (
 
 genvar i;
 for (i=0; i<BUS_WIDTH; i=i+1) begin
-  assign io[i] = (s_oen[i]) ? s_out: 1'bz;
+  assign io[i] = (!s_oen[i]) ? s_out: 1'bz;
   assign s_in[i] = io[i];
 end
 
