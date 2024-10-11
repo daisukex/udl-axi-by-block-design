@@ -1,4 +1,4 @@
-module bd_buf # (
+module bd_io_buf # (
   parameter BUS_WIDTH = 16
 ) (
   output [BUS_WIDTH-1:0] s_in,
